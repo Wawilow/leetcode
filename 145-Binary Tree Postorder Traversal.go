@@ -1,7 +1,7 @@
 package main
 
 import (
-	"log"
+	"fmt"
 )
 
 type TreeNode struct {
@@ -35,5 +35,5 @@ func main() {
 
 	r := readNodeList{}
 	r.readNode(simpleNode)
-	log.Print(r.res)
+	fmt.Print(r.res, "\n")
 }

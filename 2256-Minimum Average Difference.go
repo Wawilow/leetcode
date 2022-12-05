@@ -1,9 +1,5 @@
 package main
 
-import (
-	"fmt"
-)
-
 func average(nums []int) int {
 	length := len(nums)
 	sum := 0
@@ -45,6 +41,7 @@ func minimumAverageDifference(nums []int) int {
 	return resIndex
 }
 
-func main() {
-	fmt.Println(minimumAverageDifference([]int{2, 5, 3, 9, 5, 3}))
-}
+//func main() {
+//	fmt.Println(minimumAverageDifference([]int{2, 5, 3, 9, 5, 3}))
+//	fmt.Print("that's end")
+//}

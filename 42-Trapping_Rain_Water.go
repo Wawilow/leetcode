@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 type matrix_row struct {
 	row []int
 }
@@ -108,6 +106,6 @@ func trap(height []int) int {
 	return countWater(waterM)
 }
 
-func main() {
-	fmt.Println(trap([]int{4, 2, 0, 3, 2, 5}))
-}
+//func main() {
+//	fmt.Println(trap([]int{4, 2, 0, 3, 2, 5}))
+//}

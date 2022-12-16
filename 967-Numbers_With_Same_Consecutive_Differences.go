@@ -1,27 +1,23 @@
 package main
 
-import (
-	"math"
-)
+//func alrIn(vrb int, list []int) bool {
+//	for _, v := range list {
+//		if v == vrb {
+//			return true
+//		}
+//	}
+//	return false
+//}
 
-func alrIn(vrb int, list []int) bool {
-	for _, v := range list {
-		if v == vrb {
-			return true
-		}
-	}
-	return false
-}
-
-func numsSameConsecDiff(n int, k int) []int {
-	res := []int{}
-
-	for i := 0; i < 10; i++ {
-		dfs(&res, []int{i}, n, k)
-	}
-
-	return res
-}
+//func numsSameConsecDiff(n int, k int) []int {
+//	res := []int{}
+//
+//	for i := 0; i < 10; i++ {
+//		dfs(&res, []int{i}, n, k)
+//	}
+//
+//	return res
+//}
 
 //func dfs(res *[]int, number []int, n int, k int) {
 //	if len(number) == n {
@@ -51,17 +47,17 @@ func numsSameConsecDiff(n int, k int) []int {
 //	return
 //}
 
-func make_num(list []int) int {
-	num := 0
-
-	//for i, v := range list {
-	for i := len(list) - 1; i >= 0; i-- {
-		v := list[len(list)-i-1]
-		num += v * int(math.Pow(10, float64(i)))
-
-	}
-	return num
-}
+//func make_num(list []int) int {
+//	num := 0
+//
+//	//for i, v := range list {
+//	for i := len(list) - 1; i >= 0; i-- {
+//		v := list[len(list)-i-1]
+//		num += v * int(math.Pow(10, float64(i)))
+//
+//	}
+//	return num
+//}
 
 //func main() {
 //	fmt.Println(time.Now())

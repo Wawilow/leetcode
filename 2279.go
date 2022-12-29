@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func maximumBags(capacity []int, rocks []int, additionalRocks int) int {
 	res := 0
 	bfrFillIn := make([]int, len(capacity))
@@ -32,7 +30,7 @@ func maximumBags(capacity []int, rocks []int, additionalRocks int) int {
 	return res
 }
 
-func main() {
-	//fmt.Println("ans: ", maximumBags([]int{2, 3, 4, 5}, []int{1, 2, 4, 4}, 2))
-	fmt.Println("ans: ", maximumBags([]int{}, []int{}, 100))
-}
+//func main() {
+//fmt.Println("ans: ", maximumBags([]int{2, 3, 4, 5}, []int{1, 2, 4, 4}, 2))
+//fmt.Println("ans: ", maximumBags([]int{}, []int{}, 100))
+//}

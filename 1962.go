@@ -36,7 +36,7 @@ func minStoneSum(piles []int, k int) int {
 	return res
 }
 
-func main() {
-	minStoneSum([]int{5, 4, 9}, 2)
-	//fmt.Println(math.Floor(2.6))
-}
+//func main() {
+//	minStoneSum([]int{5, 4, 9}, 2)
+//fmt.Println(math.Floor(2.6))
+//}

@@ -1,4 +1,4 @@
-package main
+package _256
 
 func average(nums []int) int {
 	length := len(nums)

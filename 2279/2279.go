@@ -1,4 +1,4 @@
-package main
+package _279
 
 func maximumBags(capacity []int, rocks []int, additionalRocks int) int {
 	res := 0

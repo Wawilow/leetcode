@@ -1,4 +1,4 @@
-package main
+package _143
 
 func contains(s []string, str string) bool {
 	for _, v := range s {

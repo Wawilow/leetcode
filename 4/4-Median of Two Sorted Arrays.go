@@ -1,4 +1,4 @@
-package main
+package _
 
 func sum(array []int) int {
 	result := 0

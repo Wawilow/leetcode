@@ -1,4 +1,4 @@
-package main
+package _962
 
 func floor(n float64) int {
 	if n-float64(int(n)) > 0 {

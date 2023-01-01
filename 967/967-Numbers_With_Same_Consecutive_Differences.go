@@ -1,4 +1,4 @@
-package main
+package _67
 
 //func alrIn(vrb int, list []int) bool {
 //	for _, v := range list {

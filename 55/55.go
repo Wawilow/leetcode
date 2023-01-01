@@ -1,4 +1,4 @@
-package main
+package _5
 
 //func canJump(nums []int) bool {
 //	if nums[0] == 0 && len(nums) == 1 {

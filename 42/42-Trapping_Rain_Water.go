@@ -1,4 +1,4 @@
-package main
+package _2
 
 type matrix_row struct {
 	row []int

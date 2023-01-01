@@ -1,4 +1,4 @@
-package main
+package _86
 
 //func possibleBipartition(n int, dislikes [][]int) bool {
 //	var (

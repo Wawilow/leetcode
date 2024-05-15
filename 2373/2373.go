@@ -1,3 +1,5 @@
+package main
+
 func largestLocal(grid [][]int) [][]int {
 	r := [][]int{}
 	rv := []int{}

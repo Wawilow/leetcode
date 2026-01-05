@@ -8,32 +8,16 @@ func findLHS(nums []int) int {
 		mapping[v] += 1
 	}
 
-	fmt.Println(len(mapping), mapping)
-
 	max := 0
 	for i := len(mapping); i > 0; i-- {
 		booba, boba := mapping[i], mapping[i-1]
-		fmt.Println(booba, boba)
 		if booba == 0 || boba == 0 {
 			continue
 		}
-		// booba *= i
-		// boba *= i - 1
 		if booba+boba > max {
 			max = boba + booba
 		}
 	}
-	// for key, val := range mapping {
-	// 	if val+mapping[key+1] > max {
-	// 		max = val + mapping[key+1]
-	// 	}
-	// 	if key != 0 {
-	// 		if val+mapping[key-1] > max {
-	// 			max = val + mapping[key-1]
-	// 		}
-	// 	}
-	// }
-
 	return max
 }
 
